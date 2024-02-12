@@ -1,0 +1,12 @@
+<label>Número 1:</label>
+<input type="number" placeholder="0" [(ngModel)]="numero1"/>
+<br><br>
+<label>Número 2:</label>
+<input type="number" placeholder="0" [(ngModel)]="numero2"/>
+<br><br>
+<input type="button" value="sumar" (click)="sumar()">
+<input type="button" value="restar" (click)="restar()">
+<br><br>
+
+Resultado: {{total}}
+
